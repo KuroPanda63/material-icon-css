@@ -21,11 +21,11 @@ HTMLでは、&amp;#xe84d;(e84dが文字コード)と書き、CSSの場合はセ�
 注意点として、少しCSSの容量が少し(58KB)あるので、その辺が気になる場合はやめた方が良いかな。<br>
 
 # セットアップ
-そのままmaterial-icons.min.cssを使うと、Google Fontsからフォントが下ろされます。
-もしダウンロードしている場合は、material-icons.cssを編集し、コンパイルしなおしてください。
-（コンパイルしなくてもいいけど、容量が多いからした方が良いと思います。）
+そのままmaterial-icons.min.cssを使うと、Google Fontsからフォントが下ろされます。<br>
+もしダウンロードしている場合は、material-icons.cssを編集し、コンパイルしなおしてください。<br>
+（コンパイルしなくてもいいけど、容量が多いからした方が良いと思います。）<br>
 
-material-icons.min.cssをHTMLまたはCSSから読み込みます。
+material-icons.min.cssをHTMLまたはCSSから読み込みます。<br>
 ```html
 <link rel="stylesheet" href="material-icons.min.css">
 ```
