@@ -35,7 +35,7 @@ material-icons.min.cssをHTMLまたはCSSから読み込みます。
 ```
 
 # 使い方
-まずは公式サイトのアイコン一覧表から、使いたいアイコンを選びます。<br>
+まずは公式サイトの<a href="https://material.io/resources/icons/" target="_blank">アイコン一覧表</a>から、使いたいアイコンを選びます。<br>
 例えば、一番最初にある3d_rotationというものを使いたい場合は、<br>
 アイコンを置きたい場所に、`<i class="mi-3d-rotation"></i>`と書くと、表示されます。<br>
 （アンダーバーはハイフンに変えてください）<br>
