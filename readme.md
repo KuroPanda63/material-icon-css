@@ -14,7 +14,7 @@
 これを解決するには、直接文字コードを挿入しなければいけません。<br>
 直接文字コードを挿入するには、HTMLとCSSで2種類の方法があります。<br>
 HTMLでは、&amp;#xe84d;(e84dが文字コード)と書き、CSSの場合はセレクターの特定のクラス名に:before(`.target:before`)を付けたし、宣言にcontent: '\\e84d'を追加します。<br>
-(Material Iconsのそれぞれの文字コードはここに書かれています ⇒ https://github.com/google/material-design-icons/blob/master/iconfont/codepoints)<br>
+(Material Iconsのそれぞれの文字コードは<a href="https://github.com/google/material-design-icons/blob/master/iconfont/codepoints" target="_blank">ここに</a>書かれています)<br>
 
 しかし、これではいちいちサイトで文字コードを確認して設定…と、手間がかかります、HTMLでアイコンをバンバン使いたい人にとってはちょっと使いにくい部分があります。<br>
 そのため、その問題を解決するために作りました。<br>
