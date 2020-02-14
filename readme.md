@@ -14,7 +14,7 @@
 これを解決するには、直接文字コードを挿入しなければいけません。<br>
 直接文字コードを挿入するには、HTMLとCSSで2種類の方法があります。<br>
 HTMLでは、&amp;#xe84d;(e84dが文字コード)と書き、CSSの場合はセレクターの特定のクラス名に:before(`.target:before`)を付けたし、宣言にcontent: '\\e84d'を追加します。<br>
-(Material Iconsのそれぞれの文字コードは<a href="https://github.com/google/material-design-icons/blob/master/iconfont/codepoints" target="_blank">ここに</a>書かれています)<br>
+(Material Iconsのそれぞれの文字コードは<a href="https://github.com/google/material-design-icons/blob/master/iconfont/codepoints">ここに</a>書かれています)<br>
 
 しかし、これではいちいちサイトで文字コードを確認して設定…と、手間がかかります、HTMLでアイコンをバンバン使いたい人にとってはちょっと使いにくい部分があります。<br>
 そのため、その問題を解決するために作りました。<br>
@@ -35,7 +35,7 @@ material-icons.min.cssをHTMLまたはCSSから読み込みます。
 ```
 
 # 使い方
-まずは公式サイトの<a href="https://material.io/resources/icons/" target="_blank">アイコン一覧表</a>から、使いたいアイコンを選びます。<br>
+まずは公式サイトの<a href="https://material.io/resources/icons/">アイコン一覧表</a>から、使いたいアイコンを選びます。<br>
 例えば、一番最初にある3d_rotationというものを使いたい場合は、<br>
 アイコンを置きたい場所に、`<i class="mi-3d-rotation"></i>`と書くと、表示されます。<br>
 （アンダーバーはハイフンに変えてください）<br>
